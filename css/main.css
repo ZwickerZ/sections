@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 *, *::before, *::after {
@@ -13,7 +13,6 @@ body {
   color: #333;
   margin: 0;
 }
-
 
 /* --------Division of Areas-------- */
 
@@ -49,6 +48,7 @@ img {
 }
 
 /* --------Button-------- */
+
 .btn {
   padding: .75em;
   border: 2px #333 solid;
@@ -62,6 +62,7 @@ img {
   background-color: #666;
   color: white;
 }
+
 h2 {
   margin-top: 0;
 }
