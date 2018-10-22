@@ -8,9 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-div .text {
-  display: inline;
-}
 
 body {
   background-color: #eee9de;
