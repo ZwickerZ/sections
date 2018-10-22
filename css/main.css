@@ -8,25 +8,38 @@ html {
   box-sizing: inherit;
 }
 
-div .text {
-  display: inline;
-}
-html body {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
 }
 body {
   background-color: #eee9de;
   color: #333;
-  min-height: 100px;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1.5rem;
-  padding: .4em .75em .5em;
 }
 
+
+/* --------Division of Areas-------- */
+.text {
+  display: inline-block;
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+  padding: 1em;
+}
+
+.image {
+  display: inline-block;
+  width: 100%;
+  max-width: 400px;
+  padding: 1em;
+}
+
+div {
+  vertical-align: middle;
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+/* --------Button-------- */
 a {
   padding: .75em;
   border: 2px #333 solid;
@@ -40,12 +53,7 @@ a:hover {
   color: white;
 }
 
-.image img{
-  width: 100%;
-  max-width: 400px;
-}
-
-p {
-  width: 100%;
-  max-width: 400px;
+section {
+  text-align: center;
+  vertical-align: middle;
 }
