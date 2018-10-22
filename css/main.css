@@ -1,3 +1,46 @@
+html {
+  box-sizing: border-box;
+  font-family: lato, sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+div .text {
+  display: inline;
+}
+
+body {
+  background-color: #eee9de;
+  color: #333;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  padding: .4em .75em .5em;
+}
+
+a {
+  padding: .75em;
+  border: 2px #333 solid;
+  border-radius: .4em;
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  background-color: #333;
+  color: white;
+}
+
+.image img{
+  width: 100%;
+  max-width: 400px;
+}
+
 p {
-  display: inline-block;
+  width: 100%;
+  max-width: 400px;
 }
